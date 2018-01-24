@@ -36,10 +36,7 @@ module.exports = {
             "when": "scope === 'project'",
             "type": "string",
             "required": true,
-            "label": "项目部署到服务器的端口号？",
-            "validate": port => {
-                return port && port % 1 === 0
-            }
+            "label": "项目部署到服务器的端口号？"
         },
         "name": {
             "type": "string",
