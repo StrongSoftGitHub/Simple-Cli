@@ -25,11 +25,11 @@ module.exports = {
             "choices": [{
                 "name": "通用（以@strongsoft作为前缀）",
                 "value": "common",
-                "short": "通用"
+                "short": "通用（以@strongsoft作为前缀）"
             }, {
-                "name": "项目（以@端口号作为前缀）",
+                "name": "项目（以@项目标识作为前缀）",
                 "value": "project",
-                "short": "项目"
+                "short": "项目（以@项目标识作为前缀）"
             }]
         },
         "port": {
